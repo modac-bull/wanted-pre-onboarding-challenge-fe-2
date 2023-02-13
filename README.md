@@ -84,6 +84,7 @@ googling
 .D.TS 비교해보기
 
 ### 1. Void는 ts 문법일까? js 문법일까?
+
 js에도 void는 있다.
 
 Typescript = javaScript + type Syntax
@@ -93,9 +94,9 @@ Typescript = javaScript + type Syntax
 자바스크립트와 타입스크립트 각 문법의 차이점들 유념할 것.
 
 ### interface vs type
+
 - interface => 객체를 묘사하고 원형을 설계하는 모델링
 - type alias => 인터페이스가 하는 것들을 그럴싸하게 한다..?
-
 
 ---
 
@@ -115,3 +116,12 @@ Typescript = javaScript + type Syntax
 # 2-2 |
 
 - 타입스크립트 공존 ?
+
+# 2-1
+
+1. 런타임 => 타입 가드 (더 있을 수 있긴하다)
+   ㄴ 리액트에서 하는 방법이 또 있다.
+   ㄴ Prop types (런타임 체킹)
+   ㄴ Mobx => MST (런타임 체킹)
+2. IDE => 타입 체커 (TSServer)
+3. 컴파일 => TSC (loader)
